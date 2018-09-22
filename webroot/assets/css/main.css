@@ -1797,8 +1797,6 @@ ul.icons {
 #banner {
   -ms-flex-align: center;
   -ms-flex-pack: center;
-  background-color: #111111;
-  color: rgba(255, 255, 255, 0.5);
   -moz-align-items: center;
   -webkit-align-items: center;
   -ms-align-items: center;
@@ -1811,7 +1809,6 @@ ul.icons {
   -webkit-justify-content: center;
   -ms-justify-content: center;
   justify-content: center;
-  background-image: url("../../images/banner.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1924,13 +1921,13 @@ ul.icons {
     border-color: #ce1b28;
     box-shadow: 0 0 0 1px #ce1b28; }
   #banner ::-webkit-input-placeholder {
-    color: rgba(255, 255, 255, 0.4) !important; }
+    color: rgba(0, 0, 255, 0.3) !important; }
   #banner :-moz-placeholder {
-    color: rgba(255, 255, 255, 0.4) !important; }
+    color: rgba(0, 0, 255, 0.3) !important; }
   #banner ::-moz-placeholder {
-    color: rgba(255, 255, 255, 0.4) !important; }
+    color: rgba(0, 0, 255, 0.3) !important; }
   #banner :-ms-input-placeholder {
-    color: rgba(255, 255, 255, 0.4) !important; }
+    color: rgba(0, 0, 255, 0.3) !important; }
   #banner ul.alt li {
     border-top-color: rgba(255, 255, 255, 0.25); }
   #banner table tbody tr {
@@ -1947,10 +1944,10 @@ ul.icons {
     border-color: rgba(255, 255, 255, 0.25); }
   #banner .highlights .content {
     background: #111111;
-    box-shadow: 0px 0px 4px 1px rgba(255, 255, 255, 0.025); }
+    box-shadow: 0px 0px 4px 1px rgba(0, 0, 255, 0.3); }
   #banner .testimonials .content {
     background: #111111;
-    box-shadow: 0px 0px 4px 1px rgba(255, 255, 255, 0.025); }
+    box-shadow: 0px 0px 4px 1px rgba(0, 0, 255, 0.3); }
     #banner .testimonials .content .credit strong {
       color: #ce1b28; }
   #banner > .inner {
@@ -1962,7 +1959,7 @@ ul.icons {
     -webkit-transition: opacity 1s ease, -webkit-transform 1s ease;
     -ms-transition: opacity 1s ease, -ms-transform 1s ease;
     transition: opacity 1s ease, transform 1s ease;
-    opacity: 1;
+    opacity: 3;
     position: relative;
     z-index: 3; }
     #banner > .inner > :last-child {
@@ -2010,7 +2007,7 @@ ul.icons {
     width: 100%;
     z-index: 1; }
   #banner:after {
-    background: linear-gradient(135deg, #ce1b28 0%, #111111 74%);
+    background: linear-gradient(135deg, #cece1a 0%, #111111 74%);
     content: ' ';
     display: block;
     height: 100%;
@@ -2044,7 +2041,7 @@ ul.icons {
         display: none; }
       #banner .button {
         width: 100%; } }
-  @media screen and (max-width: 480px) {
+  @media screen and (max-width: 100%) {
     #banner p {
       font-size: 1rem; } }
   body.is-preload #banner .inner {
@@ -2671,7 +2668,7 @@ body {
     #heading .testimonials .content .credit strong {
       color: #ce1b28; }
   #heading:before {
-    background: linear-gradient(135deg, #ce1b28 0%, #111111 74%);
+    background: linear-gradient(135deg, #1a4dce 0%, #111111 74%);
     content: ' ';
     display: block;
     height: 100%;
